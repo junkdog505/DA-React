@@ -30,6 +30,12 @@ header h1 {
   font-size: 40px;
 }
 
+.titulo-UCSM {
+  color: #009944;
+  font-size: 60px;
+  text-align: center;
+}
+
 ul li {
   list-style-type: none;
   margin-bottom: 10px;
@@ -48,4 +54,14 @@ ul li a:hover {
   margin: 0px auto;
   width: 600px;
   height: 600px;
+}
+
+.imgUCSM {
+  display: block;
+  margin: 0px auto;
+  /*El uso de operadores para definir la resolución de la imagen con una interpolación al final para que se defina en pixeles*/
+  width: 600 px;
+  height: 600 px;
+  /*Interpolación es decir usamos funciones que permiten que dejen cadenas de texto sin comprometer su formato*/
+  background-image: url("url");
 }/*# sourceMappingURL=app.css.map */

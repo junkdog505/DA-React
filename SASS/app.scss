@@ -1,11 +1,13 @@
 /*Anidación*/
 $myFont: Helvetica, sans-serfi;
 $myColorTitulo: #c93838;
+$mycolorUCSM: #009944;
 $myFontTitulo: 60px;
 $myFontTextoImportantes: 40px;
 $myColorBackground: #272727;
 $mycolorTexto: #fff;
 $myImgLogo: 300px;
+$url: 'https://www.ucsm.edu.pe/';
 * {
     margin: 5px 15px;
     padding: 0;
@@ -15,6 +17,7 @@ $myImgLogo: 300px;
 
 body {
     background-color: $myColorBackground;
+
 }
 
 p {
@@ -36,7 +39,11 @@ header {
     color: $myColorTitulo;
     font-size: $myFontTextoImportantes;
 }
-
+.titulo-UCSM{
+    color: $mycolorUCSM;
+    font-size: $myFontTitulo;
+    text-align: center;
+}
 ul li {
     list-style-type: none;
     margin-bottom: 10px;
@@ -55,4 +62,13 @@ ul li {
     margin: 0px auto;
     width: $myImgLogo+300px;
     height: $myImgLogo+300px;
+}
+.imgUCSM{
+    display: block;
+    margin: 0px auto;
+    /*El uso de operadores para definir la resolución de la imagen con una interpolación al final para que se defina en pixeles*/
+    width: 300*2 #{px};
+    height: 300*2 #{px};
+    /*Interpolación es decir usamos funciones que permiten que dejen cadenas de texto sin comprometer su formato*/
+    background-image: url('#{url}');
 }
