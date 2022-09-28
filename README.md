@@ -9,4 +9,3 @@ Primera tarea de la segunda fase
 # Aplicar COMPONENTES JAVASCRIPT (MODALES) EN BOOTSTRAP
 [![Screenshot-from-2022-09-27-15-04-58.png](https://i.postimg.cc/Hkv8syXX/Screenshot-from-2022-09-27-15-04-58.png)](https://postimg.cc/68RpMTHp)
 [![Screenshot-from-2022-09-27-15-08-09.png](https://i.postimg.cc/RFtzJj84/Screenshot-from-2022-09-27-15-08-09.png)](https://postimg.cc/LYmWr02b)
-
