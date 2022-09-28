@@ -1,0 +1,58 @@
+* {
+  font-family: Helvetica, sans-serfi;
+  background-color: #272727;
+}
+
+.youtube {
+  color: #ff0000;
+}
+
+.facebook {
+  color: #1094f4;
+}
+
+.instagram {
+  color: #ff2576;
+}
+
+.twitter {
+  color: #1d9bf0;
+}
+
+.reddit {
+  color: #ff4500;
+}
+
+.chan {
+  color: #58a13b;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.titulo h1 {
+  text-align: center;
+  margin: 0 0 0.5em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 40px;
+  color: #ff4500;
+}
+
+h2 {
+  color: #ff4500;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+p {
+  color: #fff;
+  font-size: 18px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=app.css.map */
