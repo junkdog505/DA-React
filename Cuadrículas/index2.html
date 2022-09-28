@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadícula</title>
+    <!--Linkeamos bootstrap a nuestro proyecto -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body style="background-color: #202020;">
+    <header>
+        <h1 class="text-center text-light">Cuadrícula o Grilla con Bootstrap</h1>
+    </header>
+    <div>
+        <h2 class="text-danger text-center">Youtube</h2>
+        <!--En el caso de row no hacemos uso de parametros ya que necesitamos una fila completa-->
+        <div class="row ">
+            <!--En este caso sis hacemos uso de un parametro que es -1 este puede variar significa lo relativo al porcentaje que ocupará con de la suma de todos los parametros insertados es decir si tengo 10 parámetros con el valor de 1 serán de 10 y cada div se rapartirá con el valor de 1-->
+            <div class=" col-2 bg-light text-center border border-danger ">Youtube</div>
+            <div class="mx-auto col-5 bg-light text-center align-self-center border border-danger">Busqueda</div>
+            <div class="col-2 bg-light text-center align-self-end border border-danger">Usuario</div>
+        </div>
+        <!--Usamos flexbox para ordenar las columnas-->
+        <div class="d-flex mt-3">
+            <div class="w-100 d-flex flex-column">
+                <div class="h-100 bg-light text-center border border-danger">Video</div>
+                <div class="h-10 bg-light text-center border border-danger">Nombre del Video</div>
+                <div class="d-flex">
+                    <div class="col-2 bg-light text-center border border-danger ">Visitas y Fecha</div>
+                    <div class="col-8"></div>
+                    <div class="col-2 ml-auto bg-light text-center border border-danger ">Like Dislike Compartir Recordar Guardar . . .</div>
+                </div>
+            </div>
+            <div class="w-25 d-flex flex-column">
+                <!--Usamos ml para poder alinear a la izquierda y mr para poder alinear a la derecha en la columna-->
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+                <div class="ml-auto p-3 bg-light text-center border border-danger">Lista de Videos</div>
+              </div>    
+        </div>
+    </div>
+
+</body>
+
+</html>
