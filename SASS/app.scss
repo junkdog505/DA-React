@@ -1,0 +1,58 @@
+/*Anidación*/
+$myFont: Helvetica, sans-serfi;
+$myColorTitulo: #c93838;
+$myFontTitulo: 60px;
+$myFontTextoImportantes: 40px;
+$myColorBackground: #272727;
+$mycolorTexto: #fff;
+$myImgLogo: 300px;
+* {
+    margin: 5px 15px;
+    padding: 0;
+    border: 0;
+    font-family: $myFont;
+}
+
+body {
+    background-color: $myColorBackground;
+}
+
+p {
+    font-size: 25px;
+    color: $mycolorTexto;
+}
+
+header {
+    color: #242424;
+
+    h1 {
+        text-align: center;
+        color: $myColorTitulo;
+        font-size: $myFontTitulo;
+    }
+}
+
+.links {
+    color: $myColorTitulo;
+    font-size: $myFontTextoImportantes;
+}
+
+ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    a {
+        color: #c93838;
+        text-decoration: none;
+        font-size: 25px;
+
+        &:hover {
+            color: #78f05a;
+        }
+    }
+}
+.img{
+    display: block;
+    margin: 0px auto;
+    width: $myImgLogo+300px;
+    height: $myImgLogo+300px;
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*Anidación*/
+* {
+  margin: 5px 15px;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica, sans-serfi;
+}
+
+body {
+  background-color: #272727;
+}
+
+p {
+  font-size: 25px;
+  color: #fff;
+}
+
+header {
+  color: #242424;
+}
+header h1 {
+  text-align: center;
+  color: #c93838;
+  font-size: 60px;
+}
+
+.links {
+  color: #c93838;
+  font-size: 40px;
+}
+
+ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+ul li a {
+  color: #c93838;
+  text-decoration: none;
+  font-size: 25px;
+}
+ul li a:hover {
+  color: #78f05a;
+}
+
+.img {
+  display: block;
+  margin: 0px auto;
+  width: 600px;
+  height: 600px;
+}/*# sourceMappingURL=app.css.map */
