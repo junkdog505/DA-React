@@ -1,0 +1,35 @@
+$myCOlorUCSM: #78f05a;
+$myFont: Helvetica, sans-serfi;
+/*Hacemos uso del Mixin es una especie de plantilla que se puede reutilizar sin retornar nada*/
+@mixin padding($top, $right){
+    padding: $top #{px} $right #{px};
+}
+
+*{
+    background-color: #272727;
+    font-family: $myFont;
+}
+.titulo{
+    color: $myCOlorUCSM;
+    @include padding(15, 15);
+    text-align: center;
+    font-size: 40px;
+}
+.info-fundacion{
+    color: $myCOlorUCSM;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.texto-fundacion{
+    color: #c9c5c5;
+    font-size: 20px;
+}
+@function duplicar($dimension){
+    @return $dimension * 2;
+}
+.img{
+    display: block;
+    margin: 0px auto;
+    height: dimension(200)#{px};
+    width: dimension(300)#{px};
+}

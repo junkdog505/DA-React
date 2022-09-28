@@ -1,0 +1,30 @@
+/*Hacemos uso del Mixin es una especie de plantilla que se puede reutilizar sin retornar nada*/
+* {
+  background-color: #272727;
+  font-family: Helvetica, sans-serfi;
+}
+
+.titulo {
+  color: #78f05a;
+  padding: 15 px 15 px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.info-fundacion {
+  color: #78f05a;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.texto-fundacion {
+  color: #c9c5c5;
+  font-size: 20px;
+}
+
+.img {
+  display: block;
+  margin: 0px auto;
+  height: dimension(200) px;
+  width: dimension(300) px;
+}/*# sourceMappingURL=app.css.map */
